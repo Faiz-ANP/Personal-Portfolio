@@ -1,0 +1,174 @@
+
+    
+.aboutpage{
+    display: block;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+     /* .aboutpage::after{
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }  */
+   
+.hero-img2{
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.hero-img2::after{
+    position: relative;
+}
+
+ .heading{
+    margin-top: 5rem;
+    
+}
+.heading h1{
+    font-size: 3rem;
+    padding: 2rem 0 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #9c8c86;
+
+}
+
+.skills p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: rgb(52, 62, 62);
+}
+.skills{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    
+   
+}
+
+.skills ul{
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        unicode-bidi: isolate;
+        justify-content: space-between;
+       
+    
+}
+.skills li{
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    scale: 0.8;
+    transition: 0.5s;
+:only-child{
+    text-shadow: white;
+}   
+       
+      
+}
+.skills li:hover{
+    scale: 1;
+}
+
+.about{
+  
+text-align: left;   
+align-items: center; 
+margin: 2rem 12rem;
+border-radius: 10px;
+background-color: #0c0c0c;
+
+}
+.points{
+   
+    padding: 2rem;
+    ul {
+      
+        list-style: none;
+    }
+    p{
+        
+        color: #535151;
+
+    }
+}
+
+@media screen and (max-width:640px) {
+   
+     .hero-img2{
+        height: 100%;
+        width: 100%;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        }
+   
+    .heading h1{
+        padding-bottom: 1rem;
+        font-size: 2.2rem;
+    }
+    .skills{
+        margin-right: 0;
+        align-items: center;
+        list-style: none;
+        justify-content: center;
+    }
+        .skills ul{
+            display: grid;
+            grid-template-columns: repeat(3,5rem);
+            gap: 2rem;
+            align-content: center;
+        }
+    .skills p{
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+        
+        
+    
+    .skills li{
+        justify-content: space-between;
+        padding:0;
+        display: flex;
+        scale: 0.6;
+        
+    } 
+    .skills li:hover{
+        scale: 0.8;
+        transition: ease-in-out;
+    }
+    .points{
+        margin: 2rem;        
+            }
+            
+            .about{
+                margin: 1.5rem 1rem ;
+            
+               }
+               .points{
+               
+                padding: 1rem 0;
+                font-size: .85rem;
+               }
+    } 
+  
+    
+
+
+

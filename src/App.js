@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./index.css";
+import Navbar from "./components/navbar";
+import Heroimg from "./components/Heroimg";
+import Heroimg2 from "./components/Heroimg2";
+import Heroimg3 from "./components/Heroimg3";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import { motion } from "framer-motion";
+import Education from "./components/Education";
+
+import LoaderComp from "./loader";
 
 function App() {
+  const [isLoading,setIsLoading]=useState(true);
+
+  setTimeout(()=>{
+    setIsLoading(false);
+  },2000);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {isLoading ?(
+        <div>
+        <LoaderComp />
+        </div>
+      ):(
+    <div>
+      <Navbar />
+      <Heroimg />
+      <Heroimg2 />
+      <Heroimg3 />
+      <Projects />
+      <Education/>
+
+      <Contact />
+
+      <Footer />
     </div>
+      )}
+    </div>
+
   );
 }
 

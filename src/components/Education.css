@@ -1,0 +1,373 @@
+.education{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgb(13, 13, 14);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 5rem;
+
+}
+.ed-heading{
+    
+   padding-top: 3rem;
+   text-align: center;
+   font-size: 1.3rem;
+   h2{
+    color: rgb(193, 187, 176);
+    margin-top: 1.5rem;
+   }
+   p{
+    color: rgb(109, 105, 100);
+    margin: 2rem;
+   }
+
+}
+.ed-crtn{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+ 
+    img{
+     height: 250px;
+     width: 250px;
+    }
+ }
+ .sub1{
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+    color: rgb(193, 187, 176);
+h2{
+    font-size: 2rem;
+}
+ 
+ }
+ .img-knr{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: -1rem;
+ img{
+    height: 200px;
+    width: 400px;
+   margin-right: -3rem;
+ }
+ }
+ .caption-knr{
+    border-radius: 15px;
+    margin: 1rem;
+    box-shadow: 1px 2px 4px 1px rgb(207, 60, 60);
+    background-color: rgb(111, 36, 36);
+width: 50pc;
+h2{
+text-align: left;
+    margin: 1.3rem;
+}
+h4{
+text-align: left;
+    margin-left: 1.3rem;
+}
+p{
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: -2rem;
+    color: rgb(193, 187, 176);
+
+}
+ }
+ .info-knr{
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 1rem;
+    line-height: 2rem;
+    background-color: black;
+p{
+    margin-top: 0;
+    text-align: left;
+}
+
+
+ }
+ .btn1 {
+    background-color: #6e2623;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 35rem;
+    transition: 0.3s;
+  }
+  
+  .btn1:hover {
+    box-shadow: 0px 1px 2px 2px rgb(207, 60, 60);
+
+    color: rgb(173, 161, 161);
+  }
+ 
+ .sub2{
+    margin-top: 3rem;
+    align-items: center;
+    text-align: center;
+    color: rgb(193, 187, 176);
+
+    h2{
+        font-size: 2rem;
+    }
+ }
+ .allcrtf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    margin-top: 2rem;
+  
+
+ }
+.consol{ 
+    background-color:#eee9e9;
+  width: 400px;
+  box-shadow: 1px 2px 3px 1px rgb(213, 214, 223);
+
+
+       img{
+        height: 150px;
+        width: 75%;
+     }
+    
+     h3{
+        color: #ccc6c6;
+        padding-top: 1rem;
+
+     }
+     h5{
+        color: rgb(110, 120, 128);
+        margin-top: 1rem;
+        padding-bottom: .5rem;
+     }
+   
+ }
+ .consol:hover{
+    box-shadow: 3px 4px 6px 3px rgb(213, 214, 223);
+      
+   }
+ .riss{
+    background-color: rgb(255, 255, 255);
+   width: 400px;
+    margin: 0 4%;
+    box-shadow: 1px 2px 3px 1px rgb(213, 214, 223);
+
+
+
+    img{
+        height: 150px;
+        width: 50%;
+     }
+     
+     h3{
+        padding-top: 1rem;
+        color: #ccc6c6;
+
+      }
+      h5{
+        color: rgb(113, 117, 120);
+        margin-top: 1rem;
+        padding-bottom: .5rem;
+     }
+ }
+ .riss:hover{
+    box-shadow: 3px 4px 6px 3px rgb(213, 214, 223);
+      
+   }
+ .hse{
+    background-color: white;
+    width: 400px;
+    box-shadow: 1px 2px 3px 1px rgb(213, 214, 223);
+
+    img{
+        height: 150px;
+        width: 50%;
+     }
+     h3{
+        padding-top: 1rem;
+        color: #ccc6c6;
+
+      }
+      h5{
+        color: rgb(113, 117, 120);
+        margin-top: 1rem;
+        padding-bottom: .5rem;
+     }
+ }
+ .hse:hover{
+    box-shadow: 3px 4px 6px 3px rgb(213, 214, 223);
+      
+   }
+ .crtcp{
+    background-color: rgb(25, 25, 27);
+   padding: auto;
+
+ }
+
+
+
+
+
+
+
+ @media screen and (max-width:640px) {
+    .sub1{
+        margin-top: 2rem;
+        text-align: center;
+        align-items: center;
+        color: rgb(193, 187, 176);
+    h2{
+        font-size: 1.8rem;
+    }
+     
+     }.ed-heading{
+        h2{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+     }
+    .img-knr{
+        display: block;
+        align-items: center;
+        margin-top: 1.5rem;
+
+     img{
+        height: 200px;
+        width: 400px;
+        margin: auto;
+     }
+     }
+     .caption-knr{
+        align-items: center;
+        border-radius: 15px;
+        margin-left: 3rem;
+       
+    width: 20pc;
+    h2{
+    text-align: center;
+    }
+    h4{
+    text-align: center;
+    margin-left: 0;
+    }
+    p{
+        text-align: center;
+        margin-top: 1rem;
+        margin-right: 0;
+    
+    }
+     }
+     .info-knr{
+        border-radius: 20px;
+        margin-top: 1rem;
+        padding: 1rem;
+    p{
+        text-align: center;
+        line-height: 2rem;
+
+    }
+   
+     }
+    
+     
+     .sub2{
+        margin-top: 3rem;
+        align-items: center;
+        text-align: center;
+    
+        h2{
+            font-size: 1.8rem;
+        }
+     }
+     .allcrtf{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 2rem;
+      
+    
+     }
+     .btn1{
+        margin-left: 0%;
+        margin-top: 2rem;
+     }
+    .consol{ 
+      width: 300px;
+    margin-bottom: 2rem;
+    transition: 0.5s;
+           img{
+            height: 100px;
+            width: 200px;
+         }
+        
+         h3{
+            padding-top: 1rem;
+    
+         }
+         h5{
+            color: rgb(113, 117, 120);
+            margin-top: 1rem;
+            padding-bottom: .5rem;
+         }
+       
+     }
+    
+     .riss{
+       width: 300px;
+
+        margin: 0 3rem;
+    
+    
+        img{
+            height: 80px;
+            width: 200px;
+         }
+         
+         h3{
+            padding-top: 1rem;
+          }
+          h5{
+            margin-top: 1rem;
+            padding-bottom: .5rem;
+         }
+     }
+    
+     .hse{
+        margin-top: 2rem;
+        width: 300px;
+
+    
+        img{
+            height: 100px;
+            width: 200px;
+         }
+         h3{
+            padding-top: 1rem;
+    
+          }
+          h5{
+            margin-top: 1rem;
+            padding-bottom: .5rem;
+         }
+     }
+    
+     .crtcp{
+        background-color: rgb(25, 25, 27);
+       padding: auto;
+    
+     }
+}
