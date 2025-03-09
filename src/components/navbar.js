@@ -32,7 +32,7 @@ const Navbar = () => {
       </Link>
 
       <ul className={click ? "menu active" : "menu"}>
-      <li>
+        <li>
           <Link
             to="home"
             smooth={true}

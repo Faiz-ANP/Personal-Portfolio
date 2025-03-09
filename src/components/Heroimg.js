@@ -18,16 +18,16 @@ const Heroimg = () => {
           transition={{ duration: 1, delay: 0.1 }}
           whileInView={{ scale: 1, opacity: 1 }}
         > */}
-         <motion.p
-              initial={{ y: 10 }}
-              animate={{ y: [-10, 0] }}
-              transition={{
-                duration: 5,
-                ease: "linear",
-                repeat: Infinity,
-                repeatType: "reverse",
-              }}
-            >
+        <motion.p
+          initial={{ y: 10 }}
+          animate={{ y: [-10, 0] }}
+          transition={{
+            duration: 5,
+            ease: "linear",
+            repeat: Infinity,
+            repeatType: "reverse",
+          }}
+        >
           HI , I'M FAIZ
         </motion.p>
         <motion.h1
@@ -36,12 +36,11 @@ const Heroimg = () => {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <TypeAnimation
-          sequence={["REACT DEVELOPER.",4000]}
-          speed={50}
-          repeat={Infinity}
-          className='font-bold italic'
-          /> 
-          
+            sequence={["REACT DEVELOPER.", 4000]}
+            speed={50}
+            repeat={Infinity}
+            className="font-bold italic"
+          />
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
@@ -51,7 +50,10 @@ const Heroimg = () => {
           <Link to="contact">
             <button className="btn">GET IN TOUCH</button>
           </Link>
-          <a target="blank" href="https://drive.google.com/file/d/15rGtUjw9e0a44noC52SEHE0iea4kkMWm/view?usp=sharing">
+          <a
+            target="blank"
+            href="https://drive.google.com/file/d/15rGtUjw9e0a44noC52SEHE0iea4kkMWm/view?usp=sharing"
+          >
             <button className="btn">RESUME</button>
           </a>
         </motion.div>

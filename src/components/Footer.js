@@ -12,8 +12,9 @@ const Footer = () => {
               size={20}
               style={{ color: "white", margin: "0 1rem" }}
             />
-        <a target="blank" href="tel:+917025871707">
-        +917025871707</a>
+            <a target="blank" href="tel:+917025871707">
+              +917025871707
+            </a>
           </h4>
         </div>
 
@@ -23,7 +24,9 @@ const Footer = () => {
               size={20}
               style={{ color: "white", margin: "0 1rem" }}
             />
-            <a target="blank" href="mailto:faize1707@gmail.com">faize1707@gmail.com</a>
+            <a target="blank" href="mailto:faize1707@gmail.com">
+              faize1707@gmail.com
+            </a>
           </h4>
         </div>
       </div>

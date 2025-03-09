@@ -13,34 +13,33 @@ import Education from "./components/Education";
 import LoaderComp from "./loader";
 
 function App() {
-  const [isLoading,setIsLoading]=useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
-  setTimeout(()=>{
+  setTimeout(() => {
     setIsLoading(false);
-  },2000);
+  }, 2000);
 
   return (
     <div>
-      {isLoading ?(
+      {isLoading ? (
         <div>
-        <LoaderComp />
+          <LoaderComp />
         </div>
-      ):(
-    <div>
-      <Navbar />
-      <Heroimg />
-      <Heroimg2 />
-      <Heroimg3 />
-      <Projects />
-      <Education/>
+      ) : (
+        <div>
+          <Navbar />
+          <Heroimg />
+          <Heroimg2 />
+          <Heroimg3 />
+          <Projects />
+          <Education />
 
-      <Contact />
+          <Contact />
 
-      <Footer />
-    </div>
+          <Footer />
+        </div>
       )}
     </div>
-
   );
 }
 

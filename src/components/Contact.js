@@ -34,7 +34,10 @@ const Contact = () => {
               transition={{ duration: 1 }}
               className="icons"
             >
-              <a target="blank" href="https://www.linkedin.com/in/faiz-anp-761271322/?originalSubdomain=in">
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/faiz-anp-761271322/?originalSubdomain=in"
+              >
                 <FaLinkedin
                   size={25}
                   target="_blank"
