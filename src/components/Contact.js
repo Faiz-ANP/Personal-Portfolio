@@ -36,7 +36,7 @@ const Contact = () => {
             >
               <a
                 target="blank"
-                href="https://www.linkedin.com/in/faiz-anp-761271322/?originalSubdomain=in"
+                href="https://www.linkedin.com/in/faiz-mohammed-a-n-p-761271322/"
               >
                 <FaLinkedin
                   size={25}
@@ -58,7 +58,7 @@ const Contact = () => {
                   style={{ color: "white" }}
                 />
               </a>
-              <a target="blank" href='href="mailto:faize1707@gmail.com"'>
+              <a target="blank" href="mailto:faize1707@gmail.com">
                 <AiOutlineMail
                   size={25}
                   target="_blank"

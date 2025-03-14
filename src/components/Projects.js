@@ -51,7 +51,7 @@ const Projects = () => {
               <div className={project.git ? "viewgit" : "viewnogit"}>
                 <button>
                   <a target="blank" href={project.git}>
-                    View on Github <FaGithub size={12} />
+                    View code 
                   </a>
                 </button>
               </div>

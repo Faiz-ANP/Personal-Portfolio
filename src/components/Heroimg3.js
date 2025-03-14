@@ -28,7 +28,7 @@ const Heroimg3 = () => {
       >
         {/* <img src={pic} alt="pic" /> */}
         <p>
-          As a React Frontend Developer with 6 months of experience, I have
+          As a React Frontend Developer with 1 year of experience, I have
           worked on building dynamic and responsive web applications. I
           specialize in creating user-friendly interfaces, optimizing
           performance, and integrating APIs to deliver seamless user

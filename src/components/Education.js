@@ -1,7 +1,7 @@
 import React from "react";
 import "./Education.css";
 import { motion } from "framer-motion";
-import kannur from "../assets/InShot_20250217_174950156.png";
+import kannur from "../assets/univ logo.png";
 import riss from "../assets/riss-technologies-logo.jpg";
 import hse from "../assets/OIP.jpeg";
 
@@ -93,7 +93,7 @@ const Education = () => {
               >
                 <img src={riss}></img>
                 <div className="crtcp">
-                  <h3>Software Development Certification</h3>
+                  <h3> Software Development Certification</h3>
                   <h5>Riss Technologies</h5>
                 </div>
               </a>

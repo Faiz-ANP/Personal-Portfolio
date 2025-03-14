@@ -28,15 +28,16 @@
 .ed-crtn{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
     align-items: center;
- 
+    width: 100%;
+/*  
     img{
      height: 250px;
      width: 250px;
-    }
+    } */
  }
  .sub1{
+    width: 100%;
     margin-top: 2rem;
     text-align: center;
     align-items: center;
@@ -48,33 +49,36 @@ h2{
  }
  .img-knr{
     display: flex;
+    align-items: center;
     margin-top: 2rem;
-    margin-left: -1rem;
  img{
-    height: 200px;
-    width: 400px;
-   margin-right: -3rem;
+   height: 150px;
+   width: 150px;
+ margin: 0 10%;
  }
  }
  .caption-knr{
+    width: 60rem;
     border-radius: 15px;
     margin: 1rem;
     box-shadow: 1px 2px 4px 1px rgb(207, 60, 60);
     background-color: rgb(111, 36, 36);
-width: 50pc;
 h2{
 text-align: left;
-    margin: 1.3rem;
+    padding: 0 1rem;
+margin: 1rem;
+color: #e0dcdc;
 }
 h4{
 text-align: left;
-    margin-left: 1.3rem;
+    padding: 0 2rem;
+    margin: 1rem;
+color: #afa5a5;
 }
 p{
     text-align: right;
-    margin-right: 2rem;
-    margin-top: -2rem;
-    color: rgb(193, 187, 176);
+    color: rgb(130, 125, 115);
+margin: 1rem;
 
 }
  }
@@ -85,8 +89,9 @@ p{
     line-height: 2rem;
     background-color: black;
 p{
-    margin-top: 0;
+    margin: 0;
     text-align: left;
+
 }
 
 
@@ -98,8 +103,8 @@ p{
     padding: 10px 25px;
     text-align: center;
     font-size: 16px;
-    margin-left: 35rem;
     transition: 0.3s;
+    margin-top: 2rem;
   }
   
   .btn1:hover {
@@ -112,6 +117,9 @@ p{
     margin-top: 3rem;
     align-items: center;
     text-align: center;
+    width: 100%;
+    height: 100%;
+
     color: rgb(193, 187, 176);
 
     h2{
@@ -122,9 +130,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 250px;
-    width: 100%;
-    margin-top: 2rem;
+    margin: 2rem;
   
 
  }
@@ -136,7 +142,7 @@ p{
 
        img{
         height: 150px;
-        width: 75%;
+        width: 45%;
      }
     
      h3{
@@ -209,7 +215,7 @@ p{
    }
  .crtcp{
     background-color: rgb(25, 25, 27);
-   padding: auto;
+    padding: auto;
 
  }
 
@@ -219,8 +225,9 @@ p{
 
 
 
- @media screen and (max-width:640px) {
+ @media screen and (max-width:740px) {
     .sub1{
+        width: 100%;
         margin-top: 2rem;
         text-align: center;
         align-items: center;
@@ -241,20 +248,23 @@ p{
     .img-knr{
         display: block;
         align-items: center;
+        justify-content: center;
         margin-top: 1.5rem;
 
      img{
-        height: 200px;
-        width: 400px;
-        margin: auto;
+        height: 150px;
+        width: 150px;
+        margin: 1rem 5rem;
      }
+
      }
      .caption-knr{
         align-items: center;
+        justify-content: center;
         border-radius: 15px;
-        margin-left: 3rem;
+        margin: 10%;
        
-    width: 20pc;
+    width: 80%;
     h2{
     text-align: center;
     }
@@ -284,8 +294,7 @@ p{
      
      .sub2{
         margin-top: 3rem;
-        align-items: center;
-        text-align: center;
+       justify-content: center;
     
         h2{
             font-size: 1.8rem;
@@ -295,8 +304,8 @@ p{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         height: 100%;
-        width: 100%;
         margin-top: 2rem;
       
     
@@ -329,7 +338,7 @@ p{
      .riss{
        width: 300px;
 
-        margin: 0 3rem;
+        margin: 0 2rem;
     
     
         img{

@@ -57,7 +57,7 @@
 
 .skills ul{
         display: flex;
-        gap: 1rem;
+        gap: 1%;
         list-style-type: none;
         margin-block-start: 1em;
         margin-block-end: 1em;
@@ -88,7 +88,7 @@
   
 text-align: left;   
 align-items: center; 
-margin: 2rem 12rem;
+margin: 2rem 12%;
 border-radius: 10px;
 background-color: #0c0c0c;
 
@@ -104,6 +104,16 @@ background-color: #0c0c0c;
         
         color: #535151;
 
+    }
+}
+
+@media screen and (max-width:1060px) {
+
+    .skills ul{
+        display: grid;
+        grid-template-columns: repeat(5,5rem);
+        gap: 2rem;
+        align-content: center;
     }
 }
 

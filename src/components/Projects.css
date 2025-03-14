@@ -12,6 +12,7 @@
     margin-top: 5rem;
 }
 .crtn1{
+    width: 100%;
     padding: 0;
     margin-top: 2rem;
     p{
@@ -35,8 +36,7 @@
 
  .projects{
     display: flex;
-    justify-content: center;
-    margin: 2rem;
+    margin: 1rem;
     background: #0b0b0b;
     border-radius: 1rem;
     button{
@@ -60,14 +60,14 @@ button:hover{
 .viewgit{
     align-items: center;
     justify-content: center;
-    padding-bottom: 2rem;
-    margin-left: 20%;
+    margin: 5% 20%;
     button{
-       
-       
-bottom : 15px;
-
-position: fixed;
+       justify-content: center;
+bottom: 2rem;
+a{
+    justify-content: center;
+    font-size: 1rem;
+}
     }
 }
 .viewnogit{
@@ -103,27 +103,45 @@ button:hover{
         width: 100%;
     }} */
 .pinfo{
-    margin: 1rem;
+    margin: 0 1rem;
     h4{
+        display: inline-block;
+       
         color: #d1cece;
-        padding-top: 1rem;
+        margin-top: 1rem;
         font-size: 1.3rem;
+        cursor: pointer;
+        transition: .5s;
+        text-decoration: underline;
+       opacity: 0.8;
     }
+    h4:hover{
+        opacity: 1;
+    }
+   
     p{
-        padding-top: 1rem;
-        font-size: 1rem;
+        margin: 1rem 0;
+        font-size: .75rem;
         color: #535151;
     }
 }
 .icons{
     display:inline-block;
     margin-right: 1rem;
-    padding: 1rem 0;
     color: #3e3d3d;
+    margin-bottom: 1rem;
 } 
 
 
+@media screen and (max-width:1040px) {
+    .list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+}
 @media screen and (max-width:640px) {
+
     .p-main{
         padding: 0;
         padding: 0 3rem;
@@ -175,7 +193,7 @@ button:hover{
            }
     }
     .viewgit{
-        margin-left: 0;
+        margin: 0;
         padding-bottom: 0;
         button{
             position: relative;
