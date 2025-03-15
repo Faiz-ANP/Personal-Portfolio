@@ -50,6 +50,7 @@ h2{
  .img-knr{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 2rem;
  img{
    height: 150px;
@@ -130,6 +131,7 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin: 2rem;
   
 
